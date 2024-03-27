@@ -7,14 +7,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="output.css">
-    <title>Document</title>
+    <title>Tomorro Assessment</title>
 </head>
 <body class="font-inter">
-    <header class="bg-primary">
+    <header class="bg-primary relative">
+        <div id="menu-bar" class="p-8 md:hidden gap-8 absolute z-[2] top-96 text-primary w-full bg-white flex flex-col">
+            <div class="self-end  flex justify-end items-end">
+                <img id="close-btn" src="https://assets-global.website-files.com/5e9dabb9b99e41d097926a30/6569a404c092bd33d27864c0_close-dark.svg" loading="lazy" alt="" class="w-1/5 self-end">
+            </div>
+            <a href="#" class="flex items-center gap-1 text-2xl">Product <img src="./assets/arrow-down.svg" alt=""></a>
+            <a href="#" class="flex items-center gap-1 text-2xl">Solutions <img src="./assets/arrow-down.svg" alt=""></a>
+            <a href="#" class="flex items-center text-2xl">Pricing</a>
+            <a href="#" class="flex items-center gap-1 text-2xl">Resources <img src="./assets/arrow-down.svg" alt=""></a>
+        </div>
+
        <nav class="fixed z-[1] md:w-3/4 md:mx-32 mt-8 md:mt-auto mx-8 flex gap-5 text-white justify-between md:justify-around px-2 py-4 md:py-2  items-center border border-primary w-1/5 bg-primary rounded-full">
         <img src="./assets/tomorro-logo.svg" alt="">
-        <img src="https://assets-global.website-files.com/5e9dabb9b99e41d097926a30/6569a404c092bd33d27864bf_burger-dark.svg" loading="lazy" alt="" class="bg-secondary rounded-full p-2 md:hidden">
+        <img id="hamburger" src="https://assets-global.website-files.com/5e9dabb9b99e41d097926a30/6569a404c092bd33d27864bf_burger-dark.svg" loading="lazy" alt="" class="bg-secondary rounded-full p-2 md:hidden">
 
+        
 
         <ul class="md:flex justify-between gap-7 hidden">
             <li><a href="#" class="flex items-center gap-1">Product <img src="./assets/arrow-down.svg" alt=""></a></li>
@@ -139,7 +150,7 @@
         <p class="md:hidden px-6 py-4 m-auto  text-center text-primary rounded-full  bg-tomGrey">Discover the best solution for optimizing your contract management</p>
         <div class="relative mt-5 md:mt-32">
             <p class="px-6 py-4 -top-20 md:-top-5 md:left-80 hidden md:block  text-primary rounded-full  bg-tomGrey absolute">Discover the best solution for optimizing your contract management</p>
-            <img src="./assets/youtube.svg" alt="">
+            <img class="rounded-lg" src="./assets/youtube.svg" alt="">
         </div>
     </section>
 
@@ -160,7 +171,7 @@
                 <a href="#" class="px-6 py-4 bg-secondary text-primary rounded-full hover:bg-lime-500">See use case</a>
             </div>
 
-            <div class="bg-[url('./assets/finance-team.svg')] bg-no-repeat bg-cover text-white p-10 rounded-lg">
+            <div class="bg-[url('./assets/finance-team.svg')] bg-no-repeat  bg-cover text-white p-10 rounded-lg">
                 <h3 class="text-4xl">Finance team</h3>
                 <p class="mt-28 md:mt-48 mb-8">Keep control of your business and boost the performance of your legal department.</p>
                 <a href="#" class="px-6 py-4 bg-secondary text-primary rounded-full hover:bg-lime-500">See use case</a>
@@ -289,7 +300,7 @@
     </section>
 
     <section class="px-4 md:px-11 mt-32">
-        <div class="bg-tomLemon flex p-8 md:p-[120px]">
+        <div class="bg-tomLemon rounded-lg flex p-8 md:p-[120px]">
             <div class="">
                <h2 class="text-2xl md:leading-[72px] md:text-[54px] font-bold w-3/4 uppercase">Tomorro, an award-winning service for 2 years</h2> 
                <p class="mb-12 mt-4">Voted the fastest CLM solution to implement and the easiest to administer.</p>
@@ -361,7 +372,7 @@
         <p>The Tomorro team</p>
     </section>
 
-    <footer class="mx-5 rounded-lg md:rounded-none md:mx-11 bg-primary p-8 md:p-16">
+    <footer class="mx-5 rounded-lg  md:mx-11 bg-primary p-8 md:p-16">
         <div class="flex flex-col md:flex-row md:justify-between gap-10 md:gap-0">
             <img class="w-1/2 md:w-auto" src="./assets/tomorro-logo.svg" alt="">
 
@@ -391,7 +402,7 @@
             </div>
 
             <div class="flex flex-col gap-6 text-white">
-                <p class="mt-8 md:mt-auto mb-8 text-secondary">Product</p>
+                <p class="mt-8 md:mt-0 mb-8 text-secondary">Product</p>
                 <a href="#">Contract generation</a>
                 <a href="#">Dynamic templates</a>
                 <a href="#">Approval workflows</a>
@@ -407,7 +418,7 @@
             </div>
 
             <div class="flex flex-col gap-6 text-white">
-                <p class="mt-8 md:mt-auto mb-8 text-secondary">Resources</p>
+                <p class="mt-8 md:mt-0 mb-8 text-secondary">Resources</p>
                 <a href="#">Read our blog</a>
                 <a href="#">Customer testimonials</a>
                 <a href="#">Ebooks</a>
@@ -420,7 +431,7 @@
             </div>
 
             <div class="flex flex-col gap-6 text-white">
-                <p class="mt-8 md:mt-auto mb-8 text-secondary">Contact</p>
+                <p class="mt-8 md:mt-0 mb-8 text-secondary">Contact</p>
                 <a href="#">About</a>
                 <a href="#">We're recruiting</a>
                 <a href="#">Legal notice</a>

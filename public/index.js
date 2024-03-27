@@ -11,3 +11,23 @@ window.addEventListener('scroll', function() {
         enNav.classList.remove('hidden');
     }
 });
+
+let closeBtn = document.getElementById('close-btn');
+let menuBar = document.getElementById('menu-bar');
+let hamburger = document.getElementById('hamburger');
+
+closeBtn.addEventListener('click',function(){
+    if(menuBar.classList.contains('absolute')){
+        menuBar.classList.add('hidden')
+     }
+
+})
+
+hamburger.addEventListener('click',function(){
+    if(menuBar.classList.contains('hidden')){
+        menuBar.classList.remove('hidden')
+     }
+     else{
+         menuBar.classList.add('hidden')
+     }
+})
