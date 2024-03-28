@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="output.css">
     <title>Tomorro Assessment</title>
 </head>
-<body class="font-inter">
-    <header class="bg-primary relative">
-        <div id="menu-bar" class="p-8 md:hidden gap-8 absolute z-[2] top-96 text-primary w-full bg-white flex flex-col">
-            <div class="self-end  flex justify-end items-end">
-                <img id="close-btn" src="https://assets-global.website-files.com/5e9dabb9b99e41d097926a30/6569a404c092bd33d27864c0_close-dark.svg" loading="lazy" alt="" class="w-1/5 self-end">
-            </div>
-            <a href="#" class="flex items-center gap-1 text-2xl">Product <img src="./assets/arrow-down.svg" alt=""></a>
-            <a href="#" class="flex items-center gap-1 text-2xl">Solutions <img src="./assets/arrow-down.svg" alt=""></a>
-            <a href="#" class="flex items-center text-2xl">Pricing</a>
-            <a href="#" class="flex items-center gap-1 text-2xl">Resources <img src="./assets/arrow-down.svg" alt=""></a>
-        </div>
-
-       <nav class="fixed z-[1] md:w-3/4 md:mx-32 mt-8 md:mt-auto mx-8 flex gap-5 text-white justify-between md:justify-around px-2 py-4 md:py-2  items-center border border-primary w-1/5 bg-primary rounded-full">
+<body class="font-inter relative">
+    <header class="bg-primary relative ">
+       <nav class="fixed z-[1] md:w-3/4 md:mx-32 mt-8 md:mt-auto mx-8 flex gap-5 text-white justify-between md:justify-around px-2 py-4 md:py-2  items-center border border-primary w-4/5 bg-primary rounded-full">
         <img src="./assets/tomorro-logo.svg" alt="">
-        <img id="hamburger" src="https://assets-global.website-files.com/5e9dabb9b99e41d097926a30/6569a404c092bd33d27864bf_burger-dark.svg" loading="lazy" alt="" class="bg-secondary rounded-full p-2 md:hidden">
+        <div>
+            <img id="hamburger" src="https://assets-global.website-files.com/5e9dabb9b99e41d097926a30/6569a404c092bd33d27864bf_burger-dark.svg" loading="lazy" alt="" class="bg-secondary rounded-full p-2 md:hidden">
+            <div id="menu-bar" class="top-0 left-0 hidden p-8 md:hidden gap-8 absolute z-[2]  text-primary w-full bg-white flex flex-col">
+                <div class="self-end  flex justify-end items-end">
+                    <img id="close-btn" src="https://assets-global.website-files.com/5e9dabb9b99e41d097926a30/6569a404c092bd33d27864c0_close-dark.svg" loading="lazy" alt="" class="w-1/2 self-end">
+                </div>
+                <a href="#" class="flex items-center gap-1 text-2xl">Product <img src="./assets/arrow-down.svg" alt=""></a>
+                <a href="#" class="flex items-center gap-1 text-2xl">Solutions <img src="./assets/arrow-down.svg" alt=""></a>
+                <a href="#" class="flex items-center text-2xl">Pricing</a>
+                <a href="#" class="flex items-center gap-1 text-2xl">Resources <img src="./assets/arrow-down.svg" alt=""></a>
+            </div>
+        </div>
 
         
 
@@ -95,27 +96,33 @@
         <div class="text-center">
             <p class="my-10 text-center text-2xl md:text-base">1000+ companies manage their contracts with Tomorro</p>
 
-            <div class="w-full whitespace-nowrap  relative animate-marquee ">
-                <span><img src="./assets/pretto-logo.svg" alt="" class="inline-block mx-20 "></span>
-                <span><img src="./assets/voodoo-logo.svg" alt="" class="inline-block mx-20 "></span>
-                <span><img src="./assets/nestle-logo.svg" alt="" class="inline-block mx-20 "></span>
-                <span><img src="./assets/Qonto-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/snfconnect-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/wwf-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/vinci-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/electra-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/gifi-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/luko-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/pretto-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/voodoo-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/nestle-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/Qonto-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/snfconnect-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/wwf-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/vinci-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/electra-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/gifi-logo.svg" alt="" class="inline-block mx-20"></span>
-                <span><img src="./assets/luko-logo.svg" alt="" class="inline-block mx-20"></span>
+            <div class=" w-full flex overflow-hidden ">
+                
+                    <div class="w-fit  flex animate-marquee gap-8 justify-between items-center">
+                        <img src="./assets/pretto-logo.svg" alt="" class=" ">
+                        <img src="./assets/voodoo-logo.svg" alt="" class=" ">
+                        <img src="./assets/nestle-logo.svg" alt="" class=" ">
+                        <img src="./assets/Qonto-logo.svg" alt="" class="">
+                        <img src="./assets/snfconnect-logo.svg" alt="" class="">
+                        <img src="./assets/wwf-logo.svg" alt="" class="">
+                        <img src="./assets/vinci-logo.svg" alt="" class="">
+                        <img src="./assets/electra-logo.svg" alt="" class="">
+                        <img src="./assets/gifi-logo.svg" alt="" class="">
+                        <img src="./assets/luko-logo.svg" alt="" class="">
+                        <img src="./assets/pretto-logo.svg" alt="" class="">
+                        <img src="./assets/voodoo-logo.svg" alt="" class="">
+                        <img src="./assets/nestle-logo.svg" alt="" class="">
+                        <img src="./assets/Qonto-logo.svg" alt="" class="">
+                        <img src="./assets/snfconnect-logo.svg" alt="" class="">
+                        <img src="./assets/wwf-logo.svg" alt="" class="">
+                        <img src="./assets/vinci-logo.svg" alt="" class="">
+                        <img src="./assets/electra-logo.svg" alt="" class="">
+                        <img src="./assets/gifi-logo.svg" alt="" class="">
+                        <img src="./assets/luko-logo.svg" alt="" class="">
+                    </div>
+                
+                
+                
 
             </div>
         </div>
@@ -159,19 +166,19 @@
         <p class="my-8 text-center">Find out Tomorro benefits your whole business.</p>
 
         <div class="flex flex-col md:flex-row gap-6">
-            <div class="bg-[url('./assets/legal-team.svg')] bg-no-repeat bg-cover text-white p-10 rounded-lg">
+            <div class="bg-legalTeam bg-no-repeat bg-cover text-white p-10 rounded-lg transform transition duration-500 hover:scale-105">
                 <h3 class="text-4xl">Legal team</h3>
                 <p class="mt-28 md:mt-48 mb-8">Set up the basic functions of your Tomorro account in just a few minutes.</p>
                 <a href="#" class="px-6 py-4 bg-secondary  text-primary rounded-full hover:bg-lime-500">See use case</a>
             </div>
 
-            <div class="bg-[url('./assets/sales-team.svg')] bg-no-repeat bg-cover text-white p-10 rounded-lg">
+            <div class="bg-salesTeam bg-no-repeat bg-cover text-white p-10 rounded-lg transform transition duration-500 hover:scale-105">
                 <h3 class="text-4xl">Sales team</h3>
                 <p class="mt-28 md:mt-48 mb-8">Reduce administrative tasks and keep an eye on the progress of your negotiations.</p>
                 <a href="#" class="px-6 py-4 bg-secondary text-primary rounded-full hover:bg-lime-500">See use case</a>
             </div>
 
-            <div class="bg-[url('./assets/finance-team.svg')] bg-no-repeat  bg-cover text-white p-10 rounded-lg">
+            <div class="bg-financeTeam bg-no-repeat  bg-cover text-white p-10 rounded-lg transform transition duration-500 hover:scale-105">
                 <h3 class="text-4xl">Finance team</h3>
                 <p class="mt-28 md:mt-48 mb-8">Keep control of your business and boost the performance of your legal department.</p>
                 <a href="#" class="px-6 py-4 bg-secondary text-primary rounded-full hover:bg-lime-500">See use case</a>
